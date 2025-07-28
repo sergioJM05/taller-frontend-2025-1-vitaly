@@ -4,7 +4,10 @@ import App from './App.vue'
 import PrimeVue from 'primevue/config'
 import Aura from '@primevue/themes/aura'
 import {
+    Button,
+    Card,
     ConfirmationService,
+    InputText, Message,
     SelectButton,
     ToastService
 } from "primevue";
@@ -34,6 +37,10 @@ app.use(ToastService)
 
 // Components personalized
 app.component('pv-select-button', SelectButton)
+app.component('pv-card', Card)
+app.component('pv-input-text', InputText)
+app.component('pv-message', Message)
+app.component('pv-button', Button)
 app.use(i18n)
 app.use(router)
 app.mount('#app')
