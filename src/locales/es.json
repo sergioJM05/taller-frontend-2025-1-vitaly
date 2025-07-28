@@ -1,0 +1,17 @@
+{
+  "sign-in": {
+    "title": "Iniciar sesión",
+    "email": "Correo electrónico",
+    "password": "Contraseña"
+  },
+  "sign-up": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirm-password": "Confirmar contraseña"
+  },
+  "form": {
+    "user-invalid": "Usuario inválido",
+    "password-invalid": "Contraseña inválida"
+  }
+}
